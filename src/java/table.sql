@@ -1,0 +1,5 @@
+SELECT * FROM pig.huiyuan;CREATE TABLE `SingleText` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `TestText` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;

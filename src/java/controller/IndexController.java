@@ -27,7 +27,6 @@ public class IndexController {
     TextService ts;
  
     @RequestMapping("/index")
-      @Transactional 
     public String index(ModelMap model ) {
          
      SingleText st =   ts.test();
